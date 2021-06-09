@@ -1,0 +1,126 @@
+body {
+  background-color: #323232;
+  color: white;
+  width: 35rem;
+  max-height: 20rem;
+}
+
+button {
+  border: 2px solid #2bb5a5;
+  border-radius: 5px;
+  background-color: #323232;
+  color: white;
+  font-weight: bold;
+  margin: .2rem;
+  cursor: pointer;
+  transition: transform .1s, background-color .3s ease;
+}
+
+button:hover{
+  background-color: #2bb5a5;
+}
+
+button:active{
+  transform: scale(0.95);
+}
+
+.select {
+  background-color: #323232;
+  border: 1px solid #2bb5a5;
+  color: #2bb5a5;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.icon-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+.icon-container img {
+  margin: .2rem;
+}
+
+.tab-select-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  font-size: 1rem;
+}
+
+#tab-select {
+  margin-top: .3rem;
+  width: 100%;
+}
+
+.table-container {
+  width: 100%;
+  margin-top: 1rem;
+  min-width: 100%;
+  max-height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  display: none;
+  overflow-y: scroll;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#storage-table {
+  width: inherit;
+  max-height: 20%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+#storage-table th {
+  /* Apply both top and bottom borders to the <th> */
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  width: 50%;
+}
+
+#storage-table td {
+  /* For cells, apply the border to one of each side only (right but not left, bottom but not top) */
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+  width: 50%;
+}
+
+#storage-table th:first-child,
+#storage-table td:first-child {
+  /* Apply a left border on the first <td> or <th> in a row */
+  border-left: 1px solid ;
+}
+
+#storage-table thead th {
+  background-color: #2bb5a5;
+  position: sticky;
+  top: 0;
+}
+
+.check-all{
+  float: left;
+}
+
+.buttons-container{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: .5rem;
+  display: none;
+}

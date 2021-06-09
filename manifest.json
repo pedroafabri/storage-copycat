@@ -1,0 +1,35 @@
+{
+  "name": "Storage Copycat",
+  "description": "An extension that allows you to copy another tab's local and session storages.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "src/popup.html"
+  },
+  "icons": { 
+    "16": "src/icons/icon16.png",
+    "32": "src/icons/icon32.png",
+    "48": "src/icons/icon48.png",
+    "64": "src/icons/icon64.png",
+    "128": "src/icons/icon128.png" 
+  },
+  "permissions": [
+    "storage", 
+    "activeTab", 
+    "scripting", 
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": ["src/content.js"]
+    }
+  ]
+}
