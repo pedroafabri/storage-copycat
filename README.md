@@ -9,7 +9,7 @@ This extension is not yet published on Chrome App Store, but you can install it 
 
 1. Download the [Latest Release](https://github.com/pedroafabri/storage-copycat/releases/tag/1.0.0);
 2. Extract the zip file to a folder;
-3. Navigate to [Chrome Extensions Page](chrome://extensions);
+3. Navigate to the Chrome Extensions Page in the url "chrome://extensions"
 4. Enable Developer Mode by clicking the toggle switch at the top-right corner;
 5. Click the **LOAD UNPACKED** button and select the directory extracted at step 2.
 6. Congratulations, your extesion is installed!
