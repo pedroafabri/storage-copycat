@@ -7,7 +7,7 @@ Feel free to help me with any improvement! :D
 ## Installing
 This extension is not yet published on Chrome App Store, but you can install it manually:
 
-1. Download the latest release;
+1. Download the [Latest Release](https://github.com/pedroafabri/storage-copycat/releases/tag/1.0.0);
 2. Extract the zip file to a folder;
 3. Navigate to [Chrome Extensions Page](chrome://extensions);
 4. Enable Developer Mode by clicking the toggle switch at the top-right corner;
