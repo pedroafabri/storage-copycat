@@ -18,6 +18,7 @@ This extension is not yet published on Chrome App Store, but you can install it 
 
 ## TODO:
 - Publish app on Chrome Store
+- Write unit tests
 
 ## Colaborators
 Thanks for [Vinicius Sacramento](https://github.com/viniciusonps) and [Leandro Leite](https://github.com/lleitep3) for helping me with front-end design, best practices and other tips.
